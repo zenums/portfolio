@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Thibault</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-commun.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <div class="ancre-home"><a href="#"><img src="ressources/fleche-vers-le-haut.png" alt="icon fléche pour retourner en haut"></a></div>
+    <!-- nav -->
+    <nav>
+        <div class="nav-horizontale">
+            <h2 class="title">Folio<b>.</b></h2>
+            <ul class="list-nav">
+                <li class="item-nav"><a href="#">Accueil</a></li>
+                <li class="item-nav"><a href="#about">À propos</a></li>
+                <li class="item-nav"><a href="#competence">Compétences</a></li>
+                <li class="item-nav"><a href="#portfolio">Portfolio</a></li>
+                <li class="item-nav"><a href="#contact">Contact</a></li>
+                <div class="item-nav light-mode">
+                    <label class="switch">
+                        <input type="checkbox" class="switch-mode">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </ul>
+            <div class="logo-burger">
+                <span class="item-burger"></span>
+                <span class="item-burger"></span>
+                <span class="item-burger"></span>
+            </div>
+        </div> 
+    </nav>
+    <!-- section acceuil -->
+    <header>
+        <div class="container-header">
+            <div class="nav-verticale">
+                <div class="logo">
+                    <a href="https://github.com/zenums" target="_blank">
+                        <img src="ressources/github.png" alt="logo github">
+                    </a>
+                </div>
+                <div class="logo">
+                    <a href="https://www.linkedin.com/in/thibaultgeorge/" target="_blank">
+                        <img src="ressources/linkedin.png" alt="logo linkedin">
+                    </a>
+                </div>
+            </div>
+            <div class="container-carte-me">
+                <h2>Hey, je suis <span class="multitext">thibault</span></h2>
+                <h3>Developpeur Front-End junior</h3>
+                <p>Bonjour, je suis actuellement à la recherche d'une alternance en tant que développeur front-end pour la formation d'Intégrateur Web chez OpenClassrooms.</p>
+                <a href="#contact">me contacter</a>
+                <div class="scrool-down">
+                    <img src="ressources/scroll-down.png" alt="scroll-down">
+                    <a href="#about">Scroll down</a>
+                </div>
+            </div>
+            <div class="photo" role="photo de thibault george"></div>
+        </div>
+    </header>
+    <main class="ancre">
+        <!-- section about -->
+        <section>
+            <div class="about reveal" id="about">
+                <h2 class="reveal-1">about me</h2>
+                <div class="container-about">
+                    <div class="meme reveal-2">
+                        <img src="ressources/IMG_2659.JPG" alt="photo de thibault george">
+                    </div>
+                    <div class="carte-about reveal-3">
+                        <h3>Une part de moi</h3>
+                        <p>Depuis le collège, je suis passionné par le développement. J'ai commencé par la création de jeux vidéo en regardant des vidéos YouTube. Récemment, j'ai découvert le développement web et j'ai été fasciné par la possibilité de créer des sites web interactifs. J'apprécie le défi technique, ainsi que l'opportunité de constamment apprendre et m'améliorer. Avec mon expérience dans le développement de jeux vidéo et mon nouvel intérêt pour le développement web, je suis motivé à continuer à explorer de nouvelles technologies et à développer mes compétences pour atteindre de nouveaux niveaux d'excellence en tant que développeur.</p>
+                        <button class="button" type="button">
+                            <span class="button__text">Mon cv</span>
+                            <span class="button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg>
+                            </span>
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section compétences -->
+        <section>
+            <div class="competences reveal" id="competence">
+                <h2 class="reveal-1">compétences</h2>
+                <div class="container-competence">
+                    <div class="competence">
+                        <ul class="menu-deroulant md1">
+                            <li class="item-principal">
+                                <img src="ressources/accolades.png" alt="icon de curly brackets" class="reveal-2">
+                                <div class="title-competences reveal-1">
+                                    <h3>développeur front-end</h3>
+                                    <p>depuis Mars 2023</p>
+                                </div>
+                                <button class="btn-competence"></button>
+                            </li>
+                            <ul class="list-competence lc1
+                                ">
+                                    <li> 
+                                        <h5>css</h5>
+                                        <p>80%</p>
+                                        <div class="slide-bar">
+                                            <div class="slide-bar-actif one"></div>
+                                        </div>
+                                    </li>
+                                    <li> 
+                                        <h5>html</h5>
+                                        <p>90%</p>
+                                        <div class="slide-bar">
+                                            <div class="slide-bar-actif two"></div>
+                                        </div>
+                                    </li>
+                                    <li class="radius"> 
+                                        <h5>Javascript</h5>
+                                        <p>40%</p>
+                                        <div class="slide-bar">
+                                            <div class="slide-bar-actif three"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </ul>
+                    </div>
+                    <div class="competence">
+                        <ul class="menu-deroulant md2">
+                            <li class="item-principal">
+                                <img src="ressources/logo unity.png" alt="logo unity" class="reveal-2">
+                                <div class="title-competences reveal-3">
+                                    <h3>développeur Jeux-vidéo</h3>
+                                    <p>depuis mon enfance</p>
+                                </div>
+                                <button class="btn-competence"></button>
+                            </li>
+                            <ul class="list-competence lc2
+                            ">
+                                <li> 
+                                    <h5>Unreal engine 4</h5>
+                                    <p>70%</p>
+                                    <div class="slide-bar">
+                                        <div class="slide-bar-actif one-compet2"></div>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <h5>construct 3</h5>
+                                    <p>80%</p>
+                                    <div class="slide-bar">
+                                        <div class="slide-bar-actif two-compet2"></div>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <h5>Unity C#</h5>
+                                    <p>70%</p>
+                                    <div class="slide-bar">
+                                        <div class="slide-bar-actif three-compet2"></div>
+                                    </div>
+                                </li>
+                                <li class="radius"> 
+                                    <h5>Modélisation Blender</h5>
+                                    <p>50%</p>
+                                    <div class="slide-bar">
+                                        <div class="slide-bar-actif four-compet2"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section portfolio -->
+        <section>
+            <div class="container-portfolio reveal" id="portfolio">
+                <h2 class="reveal-1">Mes Projets</h2>
+                <div class="container-projet">     
+                    <div class="container">
+                        <div class="slider">
+                            <div class="projet active">
+                                <h3 class="reveal-1">mes projets javascript</h3>
+                                <div class="grid">
+                                    <div class="img reveal-2">
+                                        <img src="ressources/img-javascripts.jpg" alt="ordinateur de bureau avec du code de javascipt sur l'écran">
+                                    </div>
+                                    <p class="reveal-3">Voici quelques projets Javascript que j'ai développés spécialement pour m'entraîner en Javascript. Chaque projet comporte des défis à réaliser pour améliorer mes compétences en programmation. Cette section de mon portfolio présente mes réalisations en matière de projets Javascript.
+                                    </p>
+                                    <a class='reveal-3' href="portfolio.html">voir plus</a>
+                                </div>
+                            </div>
+                            <div class="projet">
+                                <h3>Mes sites web</h3>
+                                <div class="grid">
+                                    <div class="img">
+                                        <img src="ressources/img-siteWeb.jpg" alt="ordinateur de bureau avec un site web sur l'écran">
+                                    </div>
+                                    <p>Dans cette section, vous trouverez les différents sites web que j'ai créés pour améliorer mes compétences en intégration web. Chacun représente un défi que j'ai relevé avec passion, en utilisant des techniques d'intégration et diverses technologies pour obtenir le résultat final souhaité.
+                                    </p>
+                                    <a href="portfolio.html">voir plus</a>
+                                </div>
+                            </div>
+                            <div class="projet">
+                                <h3>mes projets Jeux-vidéo</h3>
+                                <div class="grid">
+                                    <div class="img">
+                                        <img src="ressources/img-jeuxVidéo.jpg" alt="console de jeux vidéo pac-man">
+                                    </div>
+                                    <p>Dans cette section, je présente mes anciens projets de jeux vidéo développés avec créativité et passion. Chaque projet a été un défi passionnant qui m'a permis d'explorer de nouvelles techniques et de renforcer mes compétences en développement de jeux vidéo.
+                                    </p>
+                                    <a href="portfolio.html">voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont-btn reveal-3 ">
+                            <div class="btn-nav left">➔</div>
+                            <div class="btn-nav right">➔</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section contact   -->
+        <section>
+            <div class="container-contact reveal" id="contact">
+                <h2 class="reveal-1">Me contacter</h2>
+                <div class="contact">
+                    <div class="carte-contact reveal-2">
+                        <img src="ressources/email.png" alt="logo email">
+                        <h5>thibault1.george@gmail.com</h5>
+                    </div>
+                    <div class="carte-contact reveal-3">
+                        <img src="ressources/appel.png" alt="logo téléphone">
+                        <h5>06-99-65-33-23</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

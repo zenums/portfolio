@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Thibault</title>
+    <link rel="stylesheet" href="style-commun.css">
+    <link rel="stylesheet" href="style-portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <div class="ancre-home"><a href="#"><img src="ressources/fleche-vers-le-haut.png" alt=""></a></div>
+    <!-- nav -->
+    <nav>
+        <div class="nav-horizontale">
+            <h2 class="title">Folio<b>.</b></h2>
+            <ul class="list-nav">
+                <li class="item-nav"><a href="index.html">Accueil</a></li>
+                <li class="item-nav"><a href="index.html#about">À propos</a></li>
+                <li class="item-nav"><a href="index.html#competence">Compétences</a></li>
+                <li class="item-nav"><a href="index.html#portfolio">Portfolio</a></li>
+                <li class="item-nav"><a href="index.html#contact">Contact</a></li>
+                <div class="item-nav light-mode">
+                    <label class="switch">
+                        <input type="checkbox" class="switch-mode">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </ul>
+            <div class="logo-burger">
+                <span class="item-burger"></span>
+                <span class="item-burger"></span>
+                <span class="item-burger"></span>
+            </div>
+        </div> 
+    </nav>
+    <main class="ancre">
+        <!-- section portfolio -->
+        <section>
+            <div class="container-portfolio">
+                <h1>Mes Créations</h1>
+                <div id="filters">
+                    <button id='all'>Tout</button>
+                    <button id='web'>Projets Web</button>
+                    <button id='jv'>Projets Jeux-vidéo</button>
+                    <button id='js'>Projets Javascript</button>
+                </div>
+                <p class="git">Vous pouvez consulter mes codes sources pour chaque projet et site web sur mon compte <span><a href="https://github.com/zenums" target="_blank">GitHub</a></span>, disponible en ligne.
+                </p>
+                <div class="container-projet2">
+                    <div class="projet active" data-web>
+                        <div class="video">
+                            <video controls="controls"  loop>
+                                <source src="ressources/video/vid-bakery.mp4" type="video/mp4" alt="projet du site Boulangerie">
+                            </video>
+                        </div>
+                        <h3>Boulangerie en ligne</h3>
+                        <p>Voici mon tout premier site internet que j'ai créé. Bien sûr, je l'ai amélioré par la suite à mesure que j'ai acquis de nouvelles compétences. Ce site m'a beaucoup entraîné pour le positionnement, en particulier avec Flexbox, ainsi que pour l'utilisation de Grid avec le formulaire de contact. Il m'a permis de mettre en pratique ce que j'ai appris grâce à la formation complète de développeur Front-End d'Enzo Ustariz sur Udemy, qui se concentre sur le CSS,le HTML et le javascript pur.</p>
+                        <a href="https://bakery-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-web>
+                        <div class="video">
+                            <video  controls="controls"  loop>
+                                <source src="ressources/video/vid-agence.mp4" type="video/mp4" alt="projet du site d'Agence Marketing">
+                            </video>
+                        </div>
+                        <h3>Site d'Agence Marketing</h3>
+                        <p>J'ai créé un site pour une agence de marketing en modifiant une maquette trouvée en ligne. Ce projet m'a permis encore de m'entraîner sur les technologies de CSS et de JavaScript. J'ai notamment travaillé sur l'aspect responsive du site en utilisant les media queries et les unités relatives. J'ai pu ainsi améliorer mes compétences dans ces domaines.</p>
+                        <a href="https://agence-marketing-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-web>
+                        <div class="video">
+                            <video  controls="controls"   loop>
+                                <source src="ressources/video/vid-flower&animals.mp4" type="video/mp4" alt="projet du site Flower&Animals">
+                            </video>
+                        </div>
+                        <h3>Flower&Animals</h3>
+                        <p>Flower&Animals est une boutique en ligne créée pour une marque fictive. Bien que seule la partie front-end ait été développée, elle comprend une page d'accueil, deux pages de catalogue pour les fleurs et les outils, ainsi qu'une page de connexion et une page de produit pour le cabanon. Bien que la partie responsive du site ne soit pas terminée, ce projet représente l'un de mes plus grands défis à ce jour. Il m'a permis de mettre en pratique mes connaissances en JavaScript, notamment en ce qui concerne les onglets.</p>
+                        <a href="https://flowers-animals-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-web>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/vid-ad3s.mp4" alt="projet du site AD3S avec sass" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Sites AD3S<br>sass</h3>
+                        <p>AD3S est un site que j'ai réalisé en utilisant le préprocesseur SASS. Bien que le site soit très simple, il m'a permis de me familiariser avec les fonctionnalités de SASS telles que le nesting et les mixins. J'ai beaucoup apprécié travailler avec SASS et je continuerai probablement à l'utiliser dans mes futurs projets. Ce projet m'a permis d'en apprendre davantage sur les avantages et les fonctionnalités de SASS</p>
+                        <a href="https://ad3s-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-js>
+                        <div class="video">
+                            <video  controls="controls"   loop>
+                                <source src="ressources/video/vid-js1.mp4" alt="projet Devine le chiffre magique en javascipt" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Devine le chiffre magique</h3>
+                        <p>"Devine le chiffre magique" est le premier projet JavaScript que j'ai réalisé. Bien que simple, j'ai voulu mettre en pratique mes connaissances en C# pour voir si cela fonctionnerait de la même manière en JavaScript. Le projet est principalement basé sur des conditions : l'utilisateur doit choisir un nombre qui change à chaque rafraîchissement de la page, et dispose de 3 vies pour trouver le chiffre magique. Ce projet m'a permis de me familiariser avec la syntaxe et la structure de base de JavaScript.                                      
+                        </p>
+                        <a href="https://devine-le-chiffre-magique-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-js>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/vid-js7.mp4" alt="projet PokeAPI en javascipt" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>PokeAPI</h3>
+                        <p>Mon projet préféré est celui dans lequel j'ai appris à utiliser les API et les méthodes associées, telles que les requêtes et la méthode fetch(). J'ai mis en pratique un exercice trouvé sur internet utlisant PokeAPI et j'ai été fasciné par la multitude de possibilités offertes par les API, en n'utilisant que quelques lignes de JavaScript. Le seul défi réside dans la difficulté de trouver les chemins pour accéder aux différentes données, ce qui m'a donné du fil à retordre.</p>
+                        <a href="https://poke-api-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-js>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/vid-js2.mp4" alt="projet Horloge en javascipt" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Horloge</h3>
+                        <p>Mon deuxième projet JavaScript est une horloge qui affiche l'année, le mois, le jour, l'heure, les minutes et les secondes. On peut également changer le fuseau horaire, mais cela est limité à l'heure d'hiver. Ce projet m'a permis de m'entraîner avec la méthode "Date()" en JavaScript ainsi qu'avec toutes ses fonctions. J'ai appris comment manipuler et afficher l'heure et la date dans différents formats, ce qui m'a permis de renforcer mes compétences en JavaScript et de mieux comprendre le fonctionnement de cette méthode.</p>
+                        <a href="https://horloge-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-js>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/vid-js3.mp4" alt="projet Ma liste des tâches en javascipt" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Ma liste des tâches</h3>
+                        <p>Ce projet permet d'ajouter et de supprimer des tâches. On peut également marquer une tâche comme terminée pour pouvoir les supprimer plus facilement. Ce projet m'a permis d'apprendre à manipuler les éléments HTML avec JavaScript. J'ai acquis des compétences en création d'éléments HTML dynamiquement, en ajoutant et en supprimant des éléments HTML, ainsi qu'en gérant l'état des éléments HTML. Ce projet est une excellente illustration de ma capacité à résoudre des problèmes de programmation.</p>
+                        <a href="https://ma-liste-des-taches-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-js>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/vid-js4.mp4" alt="projet La bataille des chevaliers en javascipt" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>La bataille des chevaliers</h3>
+                        <p>Le quatrième projet JavaScript que j'ai réalisé est une bataille entre un chevalier et un ennemi. Ce projet m'a permis de m'entraîner sur la création et la manipulation d'objets. Malheureusement, je n'ai pas pu terminer ce projet, il est impossible de modifier la classe dynamiquement. Bien que ce projet n'ait pas abouti et qu'il possède aucune expérience utilisateur, il m'a offert une opportunité d'apprentissage et d'entraînement précieuse.</p>
+                        <a href="https://la-bataille-des-chevalier-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-js>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/vid-js5.mp4" alt="projet onglets en javascipt" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Projet onglets</h3>
+                        <p>Le projet des onglets, est un projet utilisant et manipulant des tableaux. En le réalisant, j'ai appris à utiliser les différentes méthodes liées aux tableaux en JavaScript. Bien qu'il existe d'autres méthodes pour créer des onglets, j'ai choisi d'expérimenter avec les tableaux.</p>
+                        <a href="https://onglets-thibault.netlify.app" target="_blank">Voir le site</a>
+                    </div>
+                    <div class="projet active" data-jv>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/MartinGame's.mp4" alt="projet Martin Game's en dévelloppement de jeux vidéo ue4" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Martin Game's</h3>
+                        <p>Martin Game's est mon dernier projet Jeux-vidéo. C’est un maître qui nous donne des missions pour pouvoir trouver une clé des âmes pour ressusciter nos amis, mais des ennemis nous en empêchent. Comme vu sur la vidéo, toute la partie code étant créée, il ne me reste que le level design et les menus. Mon style de jeu est orienté cartoon comme montré dans la plupart de mes projets. Ce style de jeu me tient à cœur, c’est pour cela que ce portfolio représente mes capacités, mais également mon style de jeu.</p>
+                        <a href="https://mega.nz/file/DnIlgZrb#kQhRlqU6pOUFG4ezp-3EL7oSgFAQ-5eRhAqm3uZhq6Q" download target="_blank">télécharger le projet</a>
+                    </div>
+                    <div class="projet active" data-jv>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/leChevalierTheo.mp4" alt="projet Le chevalier théo en dévelloppement de jeux vidéo unity" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Le chevalier théo</h3>
+                        <p>"Le Chevalier Théo" est mon dernier jeu créé sur Unity. Bien qu'il ne soit pas encore tout à fait terminé et nécessite quelques cinématiques ainsi qu'une amélioration de son design, il est bien plus complexe que mes précédents jeux. Il présente des ennemis différents, des missions données par un personnage, des cinématiques, des objets à récupérer et un inventaire d'objets,un menu...</p>
+                        <a href="https://mega.nz/folder/OrZVXAyZ#h7yiRguo0UAmKWYJKP_XFQ" download target="_blank">télécharger le projet</a>
+                    </div>
+                    <div class="projet active" data-jv>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/RunAway.mp4" type=video/mp4 type="video/mp4" alt="projet Run Away en dévelloppement de jeux vidéo ue4">
+                            </video>
+                        </div>
+                        <h3>Run Away</h3>
+                        <p>
+                            Run Away a été créé avec la formation du youtubeur « Mathieu ». J’ai regardé toute sa formation et j'ai donc refait son jeu en essayant de me débrouiller sans s’aider de sa formation quand un problème surgit. C’est grâce à cette formation que je peux créer des jeux de A à Z avec unreal engine, refaire son jeu est donc un des objectifs pour pouvoir m’améliorer davantage et comme vu sur la vidéo, je pense être qu’à la moitié de sa formation, mais je compte bien la continuer en mettant mon propre style dans son jeu vidéo. </p>
+                        <a href="https://mega.nz/file/u3ZzRKKZ#NtbWWCMNalXePmXQhVrYzNRga1haJAPLAAAAAAAAAAA" target="_blank">télécharger le projet</a>
+                    </div>
+                    <div class="projet active" data-jv>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/Kenny-game.mp4" alt="projet Kenny Game's en dévelloppement de jeux vidéo construct3" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Kenny Game's</h3>
+                        <p>Kenny Game's est un projet créé avec CONSTRUCT 3, ce jeu est le réel premier jeu terminé. Je voulais apprendre la 2D pensant que c’était plus facile que la 3D, grosse erreur de ma part, je trouve aujourd’hui plus facile la 3D que la 2D. L’utilisation de CONSTRUCT et de la 2D m’ont énormément aidé pour apprendre la 3D. En effet à l’époque où je lui ai créé la quasi-totalité des vidéos étaient en anglais, j’ai donc appris seul en touchant un peu n’importe comment ce qui permet aujourd’hui d’avoir des facilités d’apprentissage sur la 3D.</p>
+                        <a href="https://mega.nz/file/e3Q0iQKC#ula9zcpcD_HVAp7SAHelvq7cgkgTGjUhuSJYgHAs5Yg" target="_blank">télécharger le projet</a>
+                    </div>
+                    <div class="projet active" data-jv>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/Au-delà des Peurs.mp4" alt="projet film d'animation 3d avec Blender" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Au-delà des Peurs</h3>
+                        <p>Ce court métrage d'animation 3D a été créé en utilisant BLENDER pour l'épreuve de baccalauréat de spécialité cinéma durant l'année scolaire de terminal. Bien qu'il ne soit pas terminé, cela m'a permis de me familiariser avec la modélisation et BLENDER au cours des premiers mois. Il reste encore beaucoup à faire, notamment la suite du film, des améliorations des animations et des voix, et d'autres éléments.
+                        </p>
+                        <a href="ressources/video/Au-delà des Peurs.mp4" download>télécharger le film</a>
+                    </div>
+                    <div class="projet active" data-jv>
+                        <div class="video">
+                            <video controls="controls"   loop>
+                                <source src="ressources/video/portfolioJV.mp4" alt="projet Portfolio Jeux-vidéo en dévelloppement de jeux vidéo ue4" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Portfolio Jeux-vidéo</h3>
+                        <p>J'ai réalisé mon portfolio sous forme de jeu vidéo 3D où vous incarnez un personnage qui peut se déplacer vers mes différents projets jeux-vidéo seulement et les différentes sections. Le portfolio sous forme de JV représente mon style graphique et montre un aperçu de mes différentes compétences sur Unreal Engine 4 !</p>
+                        <a href="https://mega.nz/folder/DmgEVRgY#Hhj2cxkYXZaLnBNSHHmZVw" target="_blank">télécharger le jeu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script-portfolio.js"></script>
+</body>
+</html>
