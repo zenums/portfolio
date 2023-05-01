@@ -296,21 +296,24 @@
     background-color: #7f00f7;
     overflow: hidden;
     border-radius: 10px;
-  }
-  .button, .button__icon, .button__text {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.button, .button__icon, .button__text {
     transition: all 0.3s;
   }
-  .button .button__text{
+.button .button__text{
     display: block;
     width: 70%;
     font-size: clamp(14px,1.5vw,25px);
-    margin: 0 30% auto 0;
+    margin: 0 30% 0 8%;
     color: #f1f1f1;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-  .button .button__icon {
+.button .button__icon {
     width: 30%;
     position: absolute;
     right: 0;
@@ -323,17 +326,17 @@
     justify-content: center;
     align-items: center;
   }
-  .button .svg{
+.button .svg{
     width: 25px;
     object-fit: cover;
     fill: #f1f1f1;
   }
-  .button:hover .button__icon {
+.button:hover .button__icon {
     width: 100%;
   }
-  .button:active {
+.button:active {
     top: 3px;
-  }
+}
 /* section compétences ------------------------------------------------------------------------- */
 .competences{
     width: 80%;
